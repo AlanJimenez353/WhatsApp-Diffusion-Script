@@ -7,7 +7,7 @@ Script realizado en python para enviar difusiones de mensajes en casino Online
 - Ejecutar formatContact.py para transformar el formato de los contactos y que se guarden en un archivo llamado contactos_exportados.txt  ( No hay que crearlo, el script lo crea solo )
 - Modificar los mensajes que se encuentran en generarMensajes.py
 - Ejecutar generarMensajes.py para generar un archivo mensajes.txt que luego seran los mensajes que se utilizaran para la difusion ( No hay que crearlo, el script lo crea solo )
-- Setar las variables de ambiente en el archivo .env ( TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_WHATSAPP_NUMBER ,CANTIDAD_CONTACTOS_POR_ENVIO, INTERVALO_TIEMPO_SEGUNDOS  )
+- Setear las variables de ambiente en el archivo .env ( TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_WHATSAPP_NUMBER ,CANTIDAD_CONTACTOS_POR_ENVIO, INTERVALO_TIEMPO_SEGUNDOS  )
 - Ejecutar envioDeMensajes.py
 
 # Features
