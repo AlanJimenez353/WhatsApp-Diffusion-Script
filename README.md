@@ -29,12 +29,15 @@ Antes de ejecutar el script, asegúrate de tener Python instalado en tu sistema.
 
 El script depende de las siguientes librerías:
 - `twilio`: para enviar mensajes a través de WhatsApp.
+- `vobject`: para leer y escribir datos vCard en Python.
 - `python-dotenv`: para cargar las variables de entorno desde un archivo `.env`.
+
 
 Puedes instalar estas dependencias ejecutando el siguiente comando en tu terminal:
 
 ```bash
-pip install twilio python-dotenv
+pip install twilio python-dotenv-vobject
+
 
 
 
