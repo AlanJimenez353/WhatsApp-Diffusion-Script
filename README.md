@@ -15,14 +15,19 @@ Script realizado en python para enviar difusiones de mensajes en casino Online
 ### FormatContact.py: 
    
    Guarda los contactos en un archivo de texto. 
+   
    Filtra contactos que tengan número de teléfono menor de 8 caracteres (Emergencias, policía, buzón de voz, etc.). 
+   
    Filtra contactos que tengan nombre vacío.
 
 ### EnvioDeMensajes.py:
 
    Guarda el índice del último contacto procesado en un txt, para que al iniciar nuevamente el programa haga la difusión comenzando desde el último contacto que se envió. 
+   
    Al tener varios mensajes predeterminados, envía uno distinto en cada mensaje para evitar detección de spam por mensajes repetitivos. 
+   
    Posee variables en .env para definir la cantidad de contactos a los que se les enviarán mensajes y cada cuánto tiempo (CANTIDAD_CONTACTOS_POR_ENVIO, INTERVALO_TIEMPO_SEGUNDOS). 
+   
    Posee variables en .env para utilizar distintos números de teléfono (TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_WHATSAPP_NUMBER).
   
 ## Pre-requisitos
